@@ -1,0 +1,79 @@
+=head1 NAME
+
+SOXMonitor - Audits and create reports about components of your applications.
+
+=head1 COPYRIGHT
+
+This is free software; see the source for copying conditions. There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+=head1 SYNOPSIS
+
+soxreport [options] ...
+
+Mandatory arguments in long format. 
+
+   -g, --group             Group of applications
+   -c, --component         An individual component, must be exists in a group
+   -e, --environment       Environment, some alias was created but is possible to define 
+                           new enviroments, some aliases are 
+                           (--prod, --dev, --int, --qa and --uat) 
+                           or in GNU mode 
+                           (-e=production, --environment=useracceptance, -e=integration)
+                           Can you guess why..?
+   -v, --verbose           Add more information to output, additionally create a new report
+                           in vendor directory
+   -h, --help
+       --version
+
+Report bugs to <aquino(at)hp.com>
+
+=head1 OPTIONS
+
+=over 4
+
+=item B<--group>
+
+   To be defined
+
+=item B<--component>
+
+   To be defined
+
+=item B<--environment>
+
+   To be defined
+
+=item B<--verbose>
+
+   To be defined
+
+=item B<--version>
+
+   To be defined
+
+=back
+
+=head1 DESCRIPTION
+
+SOXMonitor
+Audits and create reports about components of your applications.
+
+See https://github.com/andresaquino/SOXMonitor
+
+La Ley Sarbanes Oxley, cuyo titulo oficial en ingles es Sarbanes-Oxley Act of 2002, 
+Pub. L. No. 107-204, 116 Stat. 745 (30 de julio de 2002), es una ley de Estados 
+Unidos tambien conocida como el Acta de Reforma de la Contabilidad Publica de Empresas
+y de Proteccion al Inversionista.
+
+Tambien es llamada SOX, SarbOx o SOA.
+
+=head1 AUTHOR
+
+SOXMonitor version 0.1
+
+Developed by 
+Andres Aquino <aquino(at)hp.com> 
+
+=cut
+# vim: set ts=3 et sw=3 sts=3 si ai tw=90 lbr:

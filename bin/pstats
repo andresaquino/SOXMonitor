@@ -1,0 +1,13 @@
+#!/usr/bin/env sh
+# vim: set ts=2 sw=2 sts=2 et si ai: 
+
+# Copyright (c) 2013, Andres Aquino <andres.aquino(at)gmail.com>
+# This file is licensed under the BSD License version 3 or later. 
+# See the LICENSE file.
+
+# load env
+. ~/.soxmonitor.rc
+
+# load program
+python ${SOX_HOME}/lib/pstats.py ${@}
+
